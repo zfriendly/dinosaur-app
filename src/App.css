@@ -52,6 +52,9 @@ main {
 
 .admin {
   margin-right: 20px;
+}
+.adminlink {
+  text-decoration: none;
   color: #1f2041;
 }
 

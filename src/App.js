@@ -25,7 +25,9 @@ class App extends Component {
     return (
       <div className="mainContainer">
         <nav>
-          <img id="dino" src={dino} alt="dino" height="95" />
+          <Link to={"/"}>
+            <img id="dino" src={dino} alt="dino" height="95" />
+          </Link>
           <div className="nav__links">
             <div className="subscribe__icon">
               <Link to={"/signup"}>Subscribe</Link>

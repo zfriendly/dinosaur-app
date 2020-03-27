@@ -38,7 +38,7 @@ class Home extends Component {
           <div id="right"></div>
         </div>
         <footer>
-          <Link to="/admindash">
+          <Link className="adminlink" to="/admindash">
             <h3 className="admin">Admin Dashboard</h3>
           </Link>
         </footer>
