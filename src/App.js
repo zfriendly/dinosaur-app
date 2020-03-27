@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import Home from "./Home";
 import Signup from "./Signup";
+import Dash from "./Dash";
 import "./App.css";
 import dino from "./dino.gif";
 
@@ -39,6 +40,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/signup" component={Signup} />
+            <Route path="/admindash" component={Dash} />
           </Switch>
         </main>
         <footer>

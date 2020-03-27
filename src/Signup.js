@@ -41,8 +41,9 @@ class Signup extends Component {
       console.log("Submitted");
 
       const newUser = {
-        name: this.state.name,
-        team: this.state.team
+        firstname: this.state.firstName,
+        lastname: this.state.lastName,
+        email: this.state.email
       };
 
       Axios.post(
@@ -50,8 +51,9 @@ class Signup extends Component {
         newUser
       ).then(res => console.log(res));
       this.setState({
-        name: null,
-        team: null
+        firstName: null,
+        lastName: null,
+        email: null
       });
       this.props.history.push("/");
     }
