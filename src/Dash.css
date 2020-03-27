@@ -1,6 +1,6 @@
 .returnedContainerUsers {
   border: 2px solid #ff9f1c;
-  width: 275px;
+  max-width: 275px;
   padding: 20px;
   margin: 8px;
 }

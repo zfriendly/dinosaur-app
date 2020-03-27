@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Dash.css";
+import "./App.css";
 
 class Dash extends Component {
   constructor(props) {
