@@ -93,6 +93,9 @@ class Signup extends Component {
           <br />
           <input className="submit" type="submit" value="Submit" />
         </form>
+        <footer>
+          <h3 className="admin">Admin Dashboard</h3>
+        </footer>
       </div>
     );
   }

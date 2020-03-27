@@ -14,6 +14,30 @@ nav {
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.home__icon,
+.subscribe__icon {
+  padding: 0 20px;
+}
+
+.home__icon {
+  border-left: 1px solid #285943;
+}
+.home__icon a {
+  text-decoration: none;
+  color: #285943;
+}
+
+.subscribe__icon a {
+  text-decoration: none;
+  color: #285943;
+  font-size: 2vh;
+}
+.nav__links {
+  display: flex;
+  align-items: center;
 }
 
 #dino {
@@ -48,13 +72,66 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 80%;
-  height: 560px;
-  background: red;
+  width: 90%;
+  height: 600px;
 }
 
 .gridContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 75%;
+}
+#welcome {
+  margin: auto;
+  font-size: 2vh;
+  text-align: center;
+  background-color: #285943;
+  padding: 25px;
+  box-shadow: 2px 2px 2px black;
+  color: #ff9f1c;
+  width: 60%;
+  border-radius: 3px;
+}
+
+#sub {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  font-size: 2vh;
+  text-align: center;
+  background-color: #ebebd3;
+  padding: 25px;
+  box-shadow: 2px 2px 2px black;
+  color: #1f2041;
+}
+#sub_text {
+  padding-bottom: 20px;
+}
+#sub_button a {
+  text-decoration: none;
+  color: #ff9f1c;
+  background-color: #285943;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#right {
+  background-image: url("./dino_land_img.png");
+  width: 80%;
+  height: 80%;
+  background-position: center;
+  background-size: cover;
 }
