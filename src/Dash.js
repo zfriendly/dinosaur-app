@@ -29,13 +29,17 @@ class Dash extends Component {
       let legends = this.state.data.map(legend => {
         return (
           <div className="returnedContainerUsers" key={legend._id}>
-            <h2 className="returnedUsers">Email: {legend.email}</h2>
+            <p className="returnedUsers">
+              Name: {legend.firstname} {legend.lastname}
+            </p>
+            <p className="returnedUsers">Email: {legend.email}</p>
           </div>
         );
       });
       return (
         <div className="usersMain">
-          <h1 id="adminDash">Admin DashBoard</h1>
+          <h1 id="adminDash">Admin Dashboard</h1>
+          <h3 id="adminDash">Subscriber Info:</h3>
           <div className="users">{legends}</div>
         </div>
       );

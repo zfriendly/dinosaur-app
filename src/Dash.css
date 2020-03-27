@@ -1,6 +1,6 @@
 .returnedContainerUsers {
   border: 2px solid #ff9f1c;
-  width: 400px;
+  width: 275px;
   padding: 20px;
   margin: 8px;
 }
@@ -18,5 +18,7 @@
 }
 
 .usersMain {
+  height: 90vh;
+  max-width: 350px;
   overflow-y: scroll;
 }

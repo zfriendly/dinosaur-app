@@ -134,4 +134,5 @@ footer {
   height: 80%;
   background-position: center;
   background-size: cover;
+  box-shadow: 3px 3px 3px black;
 }
