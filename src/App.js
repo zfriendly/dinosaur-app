@@ -1,9 +1,17 @@
-import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import React, { Component } from "react";
+// import { Route, Link, Switch } from "react-router-dom";
 
-function App() {
-  return <div className="App">HELLO WORLD</div>;
+class App extends Component {
+  constructor(props) {
+    super();
+    this.state = {};
+  }
+  componentDidMount() {}
+  render() {
+    return <div>Hello World</div>;
+  }
 }
 
 export default App;
