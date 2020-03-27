@@ -1,0 +1,22 @@
+.returnedContainerUsers {
+  border: 2px solid #ff9f1c;
+  width: 400px;
+  padding: 20px;
+  margin: 8px;
+}
+
+#adminDash {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.returnedUsers {
+  color: white;
+  font-weight: 400;
+}
+
+.usersMain {
+  overflow-y: scroll;
+}

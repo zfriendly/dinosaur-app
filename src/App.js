@@ -4,6 +4,7 @@ import Home from "./Home";
 import HomeIcon from "@material-ui/icons/Home";
 
 import Signup from "./Signup";
+import Dash from "./Dash";
 import "./App.css";
 import dino from "./dino.gif";
 
@@ -40,6 +41,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/signup" component={Signup} />
+            <Route path="/admindash" component={Dash} />
           </Switch>
         </main>
       </div>
